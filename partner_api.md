@@ -118,6 +118,7 @@ https://wapclick.mobi/init/sync/12187.json?ip=213.87.249.227&p_data=1&back_url=h
 | 21 | cannot find oferta | Оферта не найдена
 | 22 | device block | Устройство абонента не поддерживает подписки
 | 23 | service blacklisted | Чёрный список
+| 24 | phone blacklisted | Номер абонента находится в чёрном списке
 
 ## 5. Уведомления о тарификациях
 
