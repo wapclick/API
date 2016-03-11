@@ -229,7 +229,7 @@ https://site.com/subscriptions?action=unsubscribe_report&service_id=1234&phone=7
 Пример
 
 ````html
-<div id="subscribe_btn" data-utm_source="1" data-utm_medium="2" data-utm_campaign="3" data-utm_term="4" data-utm_content="5"></div>
+<div class="wk__subscribe_btn" data-utm_source="1" data-utm_medium="2" data-utm_campaign="3" data-utm_term="4" data-utm_content="5"></div>
 ````
 
 ## 8. Дополнительные возможности API
