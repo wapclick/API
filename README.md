@@ -116,7 +116,7 @@ back_url будет использован при возврате абонен�
 Пример
 
 ```html
-<script type="text/javascript" src="https://wapclick.mobi/script/13511.js?p_data=077dd9d0-690d-11e5-b533-0d1018f8ac82&back_url=https%3A%2F%2Fsite.com%2Fcontent&landing[mf]=landing-1322&landing[mts]=landing-11" async></script>
+<script type="text/javascript" src="http://wapclick.mobi/script/13511.js?p_data=077dd9d0-690d-11e5-b533-0d1018f8ac82&back_url=https%3A%2F%2Fsite.com%2Fcontent&landing[mf]=landing-1322&landing[mts]=landing-11" async></script>
 ```
 
 ## 4. Возврат абонента на сайт партнёра
