@@ -212,13 +212,14 @@ wapclick.com уведомляет партнера об успешных спи�
 | curr | character(3) | Буквенный код валюты расчётов с партнёром (ISO 4217) | RUB
 | tid | varchar(100) | Уникальный идентификатор транзакции | 08057700-690d-11e5-b610-321018f8ac82
 | p_data | varchar(100) | Идентификатор подписки в системе партнёра | 077dd9d0-690d-11e5-b533-0d1018f8ac82
+| eup | numeric | Стоимость для абонента | 100
 | sign | char(64) | Подпись запроса sha256(action+service\_id+phone+tid+p\_data+secret\_key). Если p_data не использовался, то он не участвует в формировании подписи | 26d5677126775acde55a7d5d379369f840b224586063f7df1f7380b412b7a0e2
 
 
 Пример уведомления
 
 ```
-https://site.com/subscriptions?action=charge_report&status=0&phone=79031234567&op=beeline&c_amount=100.01&amount=100.01&c_pay=50.01&pay=50.01&c_curr=RUB&curr=RUB&tid= 08057700-690d-11e5-b610-321018f8ac82&p_data=077dd9d0-690d-11e5-b533-0d1018f8ac82&service_id=1234&sign= 26d5677126775acde55a7d5d379369f840b224586063f7df1f7380b412b7a0e2
+https://site.com/subscriptions?action=charge_report&status=0&phone=79031234567&op=beeline&c_amount=100.01&amount=100.01&c_pay=50.01&pay=50.01&c_curr=RUB&curr=RUB&tid= 08057700-690d-11e5-b610-321018f8ac82&p_data=077dd9d0-690d-11e5-b533-0d1018f8ac82&service_id=1234&eup=100&sign= 26d5677126775acde55a7d5d379369f840b224586063f7df1f7380b412b7a0e2
 ```
 
 
